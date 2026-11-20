@@ -1,6 +1,9 @@
 <div align="center">
 
-# devwrapped
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/logo/devwrapped-horizontal-night.svg">
+  <img src="docs/logo/devwrapped-horizontal-ink.svg" width="420" alt="devwrapped">
+</picture>
 
 Your year in code, wrapped: devwrapped turns your git history, shell history, and AI agent logs into a set of shareable slides, without anything leaving your machine.
 
