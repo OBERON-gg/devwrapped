@@ -1,0 +1,32 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#f3ede1"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="1">No. 10</text>
+<text x="207.8" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">/ 12</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="3">YOU</text>
+<line x1="88" y1="132" x2="992" y2="132" stroke="#1d1b18" stroke-width="2"/>
+<line x1="88" y1="1230" x2="992" y2="1230" stroke="#1d1b18" stroke-width="2"/>
+<text x="88" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">devwrapped / 2026</text>
+<text x="992" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="1">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="220" font-family="Space Grotesk" font-weight="300" font-size="64" fill="#1d1b18" text-anchor="start" letter-spacing="-2">Your 2026 title</text>
+</g>
+<g class="part">
+<g transform="rotate(-10 540 580)">
+<circle cx="540" cy="580" r="290" fill="none" stroke="#e0402b" stroke-width="13.181818"/>
+<circle cx="540" cy="580" r="246.5" fill="none" stroke="#e0402b" stroke-width="2"/>
+<text x="540" y="498.6" font-family="JetBrains Mono" font-weight="700" font-size="40.7" fill="#e0402b" text-anchor="middle" letter-spacing="4">AWARDED</text>
+<text x="540" y="576.3" font-family="Space Grotesk" font-weight="700" font-size="74" fill="#e0402b" text-anchor="middle" letter-spacing="0">Agent</text>
+<text x="540" y="650.3" font-family="Space Grotesk" font-weight="700" font-size="74" fill="#e0402b" text-anchor="middle" letter-spacing="0">Whisperer</text>
+</g>
+</g>
+<g class="part">
+<text x="88" y="950" font-family="Space Grotesk" font-weight="300" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="-1">179 AI sessions.</text>
+<text x="88" y="1006" font-family="Space Grotesk" font-weight="300" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="-1">Your AI knows your coding style better than your</text>
+<text x="88" y="1062" font-family="Space Grotesk" font-weight="300" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="-1">coworkers do.</text>
+<text x="88" y="1138" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">Also: Daily Driver, Streak Keeper.</text>
+</g>
+</svg>

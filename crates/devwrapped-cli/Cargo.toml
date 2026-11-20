@@ -1,0 +1,20 @@
+[package]
+name = "devwrapped"
+description = "A year in review from your local git history, shell history, and AI agent logs"
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+devwrapped-core = { path = "../devwrapped-core", version = "1.0.0" }
+devwrapped-card = { path = "../devwrapped-card", version = "1.0.0" }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+jiff = "0.2"
+
+[dev-dependencies]
+assert_cmd = "2"
+gix = { version = "0.90", default-features = false, features = ["sha1"] }
+tempfile = "3"

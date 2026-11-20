@@ -1,0 +1,39 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s10-glow0"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.85"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient><radialGradient id="s10-glow1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><radialGradient id="s10-glow2"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.3"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="1000" cy="420" r="560" fill="url(#s10-glow0)"/><circle cx="60" cy="1300" r="600" fill="url(#s10-glow1)"/><circle cx="100" cy="80" r="300" fill="url(#s10-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">10 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="775.0" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="240" font-family="Unbounded" font-weight="400" font-size="44" fill="#a9a3d6" text-anchor="start" letter-spacing="0">Your 2026 title</text>
+</g>
+<g class="part">
+<rect x="88.0" y="330.0" width="904.0" height="290.0" rx="145" fill="#c8ff3d"/>
+<text x="178" y="432" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#0c0a1d" text-anchor="start" letter-spacing="4">THE AWARD GOES TO</text>
+<text x="174" y="548" font-family="Unbounded" font-weight="900" font-size="68" fill="#0c0a1d" text-anchor="start" letter-spacing="-2">Agent Whisperer</text>
+</g>
+<g class="part">
+<text x="88" y="740" font-family="Unbounded" font-weight="400" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">179 AI sessions.</text>
+<text x="88" y="796" font-family="Unbounded" font-weight="400" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">Your AI knows your coding style</text>
+<text x="88" y="852" font-family="Unbounded" font-weight="400" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">better than your coworkers do.</text>
+<text x="92" y="938" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#a9a3d6" text-anchor="start" letter-spacing="1">Also: Daily Driver, Streak Keeper.</text>
+</g>
+</svg>

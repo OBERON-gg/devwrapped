@@ -1,0 +1,16 @@
+[package]
+name = "devwrapped-card"
+description = "SVG, PNG, and HTML card renderers for devwrapped"
+version.workspace = true
+edition.workspace = true
+license = "(MIT OR Apache-2.0) AND OFL-1.1"
+repository.workspace = true
+
+[dependencies]
+devwrapped-core = { path = "../devwrapped-core", version = "1.0.0" }
+resvg = { version = "0.50", default-features = false, features = ["text"] }
+thiserror = "2"
+
+[dev-dependencies]
+insta = "1"
+jiff = "0.2"

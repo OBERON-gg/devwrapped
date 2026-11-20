@@ -1,0 +1,59 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s8-glow0"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.6"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient><radialGradient id="s8-glow1"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.75"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient><radialGradient id="s8-glow2"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.4"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="980" cy="200" r="520" fill="url(#s8-glow0)"/><circle cx="100" cy="1250" r="620" fill="url(#s8-glow1)"/><circle cx="900" cy="1300" r="300" fill="url(#s8-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">08 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="622.3" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="76" y="400" font-family="Unbounded" font-weight="900" font-size="280" fill="#ffffff" text-anchor="start" letter-spacing="-10" class="value">179</text>
+</g>
+<g class="part">
+<text x="88" y="500" font-family="Unbounded" font-weight="900" font-size="64" fill="#c8ff3d" text-anchor="start" letter-spacing="-2">sessions with your AI.</text>
+<text x="88" y="578" font-family="Unbounded" font-weight="400" font-size="36" fill="#a9a3d6" text-anchor="start" letter-spacing="0">At this point it should come to standup.</text>
+<text x="92" y="632" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="1">Claude Code 142 · Codex CLI 37 · 30 days together</text>
+<text x="92" y="672" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="1">Mostly claude-opus-5-5. You have a type.</text>
+</g>
+<g class="part">
+<text x="92" y="742" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="3">TOOLS</text>
+<rect x="88.0" y="766.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="506" y="803" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">5,210</text>
+<text x="110" y="803" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">Read</text>
+<rect x="88.0" y="830.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="506" y="867" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">3,388</text>
+<text x="110" y="867" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">Edit</text>
+<rect x="88.0" y="894.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="506" y="931" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">2,954</text>
+<text x="110" y="931" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">Bash</text>
+<rect x="88.0" y="958.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="506" y="995" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">1,470</text>
+<text x="110" y="995" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">Grep</text>
+<rect x="88.0" y="1022.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="506" y="1059" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">610</text>
+<text x="110" y="1059" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">Write</text>
+<text x="556" y="742" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="3">MODELS</text>
+<rect x="552.0" y="766.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="970" y="803" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">9,120</text>
+<text x="574" y="803" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">claude-opus-5-5</text>
+<rect x="552.0" y="830.0" width="440.0" height="54.0" rx="27" fill="#ffffff" fill-opacity="0.07"/>
+<text x="970" y="867" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">2,210</text>
+<text x="574" y="867" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">gpt-5.5-codex</text>
+</g>
+</svg>

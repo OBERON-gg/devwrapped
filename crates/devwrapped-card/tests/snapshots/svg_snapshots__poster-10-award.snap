@@ -1,0 +1,27 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">YOU</text>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">10 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#111111" stroke-width="3"/>
+<g class="part">
+<text x="88" y="226" font-family="Space Grotesk" font-weight="500" font-size="56" fill="#111111" text-anchor="start" letter-spacing="-1.5">Your 2026 title</text>
+</g>
+<g class="part">
+<circle cx="540.0" cy="620.0" r="300.0" fill="#e3120b"/>
+<text x="540" y="608" font-family="Space Grotesk" font-weight="700" font-size="96" fill="#ffffff" text-anchor="middle" letter-spacing="-4.3">Agent</text>
+<text x="540" y="699.2" font-family="Space Grotesk" font-weight="700" font-size="96" fill="#ffffff" text-anchor="middle" letter-spacing="-4.3">Whisperer</text>
+</g>
+<g class="part">
+<text x="88" y="1010" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#111111" text-anchor="start" letter-spacing="-1">179 AI sessions.</text>
+<text x="88" y="1062" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#111111" text-anchor="start" letter-spacing="-1">Your AI knows your coding style better than your</text>
+<text x="88" y="1114" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#111111" text-anchor="start" letter-spacing="-1">coworkers do.</text>
+<text x="88" y="1182" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">Also: Daily Driver, Streak Keeper.</text>
+</g>
+</svg>

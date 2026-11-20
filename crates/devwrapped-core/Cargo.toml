@@ -1,0 +1,17 @@
+[package]
+name = "devwrapped-core"
+description = "Collectors, stats model, and awards for devwrapped"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+gix = { version = "0.90", default-features = false, features = ["sha1", "blob-diff"] }
+jiff = "0.2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+walkdir = "2"
+
+[dev-dependencies]
+tempfile = "3"

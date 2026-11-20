@@ -1,0 +1,9 @@
+git status
+Get-ChildItem -Path C:\Users\dev\private
+$env:TOKEN = "hunter2"
+cargo build --release
+Write-Host "first `
+second secret-arg"
+docker ps
+& "C:\Tools\tool.exe" --password hunter2
+winget install Some.App

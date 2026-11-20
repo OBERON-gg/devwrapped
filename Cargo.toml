@@ -1,0 +1,26 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/OBERON-gg/devwrapped"
+
+[profile.release]
+strip = true
+
+# rendering slides in tests is slow without optimization
+[profile.dev.package]
+resvg.opt-level = 3
+usvg.opt-level = 3
+tiny-skia.opt-level = 3
+tiny-skia-path.opt-level = 3
+harfrust.opt-level = 3
+skrifa.opt-level = 3
+read-fonts.opt-level = 3
+fontdb.opt-level = 3
+png.opt-level = 3
+fdeflate.opt-level = 3
+miniz_oxide.opt-level = 3

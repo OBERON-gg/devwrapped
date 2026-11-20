@@ -1,0 +1,39 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#f3ede1"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="1">No. 04</text>
+<text x="207.8" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">/ 12</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="3">GIT</text>
+<line x1="88" y1="132" x2="992" y2="132" stroke="#1d1b18" stroke-width="2"/>
+<line x1="88" y1="1230" x2="992" y2="1230" stroke="#1d1b18" stroke-width="2"/>
+<text x="88" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">devwrapped / 2026</text>
+<text x="992" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="1">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="250" font-family="Space Grotesk" font-weight="700" font-size="110" fill="#1d1b18" text-anchor="start" letter-spacing="-4">Rust ran</text>
+<text x="88" y="362" font-family="Space Grotesk" font-weight="700" font-size="110" fill="#1d1b18" text-anchor="start" letter-spacing="-4">your year.</text>
+</g>
+<g class="part">
+<text x="88" y="484" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#6f685d" text-anchor="start" letter-spacing="0">44% of everything you touched.</text>
+<text x="88" y="526" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#6f685d" text-anchor="start" letter-spacing="0">The other languages are jealous.</text>
+</g>
+<g class="part hbars">
+<text x="88" y="628" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="0">Rust</text>
+<rect x="400.0" y="594.0" width="206.8" height="40.0" rx="0" fill="#e0402b"/>
+<text x="626.8" y="628" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#1d1b18" text-anchor="start" letter-spacing="0">44%</text>
+<text x="88" y="724" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="0">TypeScript</text>
+<rect x="400.0" y="690.0" width="108.1" height="40.0" rx="0" fill="#2643a6"/>
+<text x="528.1" y="724" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#1d1b18" text-anchor="start" letter-spacing="0">23%</text>
+<text x="88" y="820" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="0">Python</text>
+<rect x="400.0" y="786.0" width="42.3" height="40.0" rx="0" fill="#2643a6"/>
+<text x="462.3" y="820" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#1d1b18" text-anchor="start" letter-spacing="0">9%</text>
+<text x="88" y="916" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="0">Go</text>
+<rect x="400.0" y="882.0" width="28.2" height="40.0" rx="0" fill="#2643a6"/>
+<text x="448.2" y="916" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#1d1b18" text-anchor="start" letter-spacing="0">6%</text>
+<text x="88" y="1012" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#1d1b18" text-anchor="start" letter-spacing="0">Shell</text>
+<rect x="400.0" y="978.0" width="9.4" height="40.0" rx="0" fill="#2643a6"/>
+<text x="429.4" y="1012" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#1d1b18" text-anchor="start" letter-spacing="0">2%</text>
+</g>
+</svg>

@@ -1,0 +1,39 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#f3ede1"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="1">No. 09</text>
+<text x="207.8" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">/ 12</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="3">AGENTS</text>
+<line x1="88" y1="132" x2="992" y2="132" stroke="#1d1b18" stroke-width="2"/>
+<line x1="88" y1="1230" x2="992" y2="1230" stroke="#1d1b18" stroke-width="2"/>
+<text x="88" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">devwrapped / 2026</text>
+<text x="992" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="1">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="220" font-family="Space Grotesk" font-weight="300" font-size="64" fill="#1d1b18" text-anchor="start" letter-spacing="-2">Your AI went through</text>
+<text x="70" y="480" font-family="Space Grotesk" font-weight="700" font-size="280" fill="#1d1b18" text-anchor="start" letter-spacing="-14" class="value">866M</text>
+</g>
+<g class="part">
+<text x="88" y="600" font-family="Space Grotesk" font-weight="700" font-size="110" fill="#e0402b" text-anchor="start" letter-spacing="-4">tokens*</text>
+<text x="88" y="700" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">*</text>
+<text x="121.6" y="700" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">812M were cache reads.</text>
+<text x="121.6" y="740" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">Your AI has a great memory.</text>
+<text x="121.6" y="780" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">About 7,218 novels’ worth, none with a plot.</text>
+</g>
+<g class="part hbars">
+<text x="88" y="890" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">input</text>
+<rect x="380.0" y="862.0" width="6.0" height="34.0" rx="0" fill="#2643a6"/>
+<text x="406" y="890" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">3.4M</text>
+<text x="88" y="960" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">output</text>
+<rect x="380.0" y="932.0" width="6.0" height="34.0" rx="0" fill="#2643a6"/>
+<text x="406" y="960" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">9.8M</text>
+<text x="88" y="1030" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">cache reads</text>
+<rect x="380.0" y="1002.0" width="372.0" height="34.0" rx="0" fill="#e0402b"/>
+<text x="772" y="1030" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">812M</text>
+<text x="88" y="1100" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">cache writes</text>
+<rect x="380.0" y="1072.0" width="16.0" height="34.0" rx="0" fill="#2643a6"/>
+<text x="416" y="1100" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">41M</text>
+</g>
+</svg>

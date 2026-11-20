@@ -1,0 +1,9 @@
+: 1767225600:0;git status
+: 1767225660:2;cargo build --release
+: 1767225720:0;TOKEN=hunter2 npm install left-pad
+: 1767225780:0;echo first line \
+second line of the same command
+: 1767225840:0;ls -la /home/dev/private
+cd projects
+: not-a-time:0;corrupt entry
+: 1767225900:0;sudo docker ps

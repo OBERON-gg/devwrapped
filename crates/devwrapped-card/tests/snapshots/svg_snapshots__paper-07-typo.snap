@@ -1,0 +1,28 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#f3ede1"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="1">No. 07</text>
+<text x="207.8" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">/ 12</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="3">SHELL</text>
+<line x1="88" y1="132" x2="992" y2="132" stroke="#1d1b18" stroke-width="2"/>
+<line x1="88" y1="1230" x2="992" y2="1230" stroke="#1d1b18" stroke-width="2"/>
+<text x="88" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">devwrapped / 2026</text>
+<text x="992" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="1">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="220" font-family="Space Grotesk" font-weight="300" font-size="64" fill="#1d1b18" text-anchor="start" letter-spacing="-2">The typo of the year</text>
+</g>
+<g class="part">
+<text x="540" y="690" font-family="Space Grotesk" font-weight="700" font-size="420" fill="#e0402b" text-anchor="middle" letter-spacing="-16">gti</text>
+<path d="M 268.3 356.1 C 115.5 540.9, 336.2 818.1, 574.0 795.0 C 947.5 771.9, 930.5 379.2, 641.9 321.5 C 438.1 298.4, 285.3 344.5, 217.4 425.4" stroke="#2643a6" stroke-width="8" fill="none" stroke-linecap="round"/>
+</g>
+<g class="part">
+<path d="M 880 830 L 790 770" stroke="#2643a6" stroke-width="6" fill="none" stroke-linecap="round"/>
+<text x="560" y="890" font-family="Space Grotesk" font-weight="700" font-size="36" fill="#2643a6" text-anchor="start" letter-spacing="0">you meant git. 31 times.</text>
+<text x="88" y="1040" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#6f685d" text-anchor="start" letter-spacing="0">512 typos in all, and your shell never said</text>
+<text x="88" y="1082" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#6f685d" text-anchor="start" letter-spacing="0">a word.</text>
+<text x="88" y="1124" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#6f685d" text-anchor="start" letter-spacing="0">A saint.</text>
+</g>
+</svg>

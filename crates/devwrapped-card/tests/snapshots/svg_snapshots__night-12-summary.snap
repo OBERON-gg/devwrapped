@@ -1,0 +1,54 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s12-glow0"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.6"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient><radialGradient id="s12-glow1"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.75"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient><radialGradient id="s12-glow2"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.4"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="980" cy="200" r="520" fill="url(#s12-glow0)"/><circle cx="100" cy="1250" r="620" fill="url(#s12-glow1)"/><circle cx="900" cy="1300" r="300" fill="url(#s12-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">12 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="927.7" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="250" font-family="Unbounded" font-weight="900" font-size="84" fill="#ffffff" text-anchor="start" letter-spacing="-3">2026</text>
+<text x="407.5" y="250" font-family="Unbounded" font-weight="900" font-size="84" fill="#c8ff3d" text-anchor="start" letter-spacing="-3">wrapped</text>
+</g>
+<g class="part">
+<rect x="88.0" y="300.0" width="904.0" height="150.0" rx="75" fill="#c8ff3d"/>
+<text x="148" y="356" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#0c0a1d" text-anchor="start" letter-spacing="4">HEADLINE AWARD</text>
+<text x="146" y="418" font-family="Unbounded" font-weight="900" font-size="50" fill="#0c0a1d" text-anchor="start" letter-spacing="-1">Agent Whisperer</text>
+</g>
+<g class="part">
+<rect x="88.0" y="500.0" width="444.0" height="192.0" rx="28" fill="#ffffff" fill-opacity="0.07"/>
+<text x="124" y="593" font-family="Unbounded" font-weight="800" font-size="62" fill="#ffffff" text-anchor="start" letter-spacing="-2" class="value">1,284</text>
+<text x="126" y="645" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="0">commits</text>
+<rect x="548.0" y="500.0" width="444.0" height="192.0" rx="28" fill="#ffffff" fill-opacity="0.07"/>
+<text x="584" y="593" font-family="Unbounded" font-weight="800" font-size="62" fill="#ffffff" text-anchor="start" letter-spacing="-2" class="value">23 days</text>
+<text x="586" y="645" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="0">longest streak</text>
+<rect x="88.0" y="726.0" width="444.0" height="192.0" rx="28" fill="#ffffff" fill-opacity="0.07"/>
+<text x="124" y="819" font-family="Unbounded" font-weight="800" font-size="62" fill="#ffffff" text-anchor="start" letter-spacing="-2" class="value">Rust</text>
+<text x="126" y="871" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="0">top language</text>
+<rect x="548.0" y="726.0" width="444.0" height="192.0" rx="28" fill="#ffffff" fill-opacity="0.07"/>
+<text x="584" y="819" font-family="Unbounded" font-weight="800" font-size="62" fill="#ffffff" text-anchor="start" letter-spacing="-2" class="value">48,213</text>
+<text x="586" y="871" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="0">shell commands</text>
+<rect x="88.0" y="952.0" width="444.0" height="192.0" rx="28" fill="#ffffff" fill-opacity="0.07"/>
+<text x="124" y="1045" font-family="Unbounded" font-weight="800" font-size="62" fill="#ffffff" text-anchor="start" letter-spacing="-2" class="value">179</text>
+<text x="126" y="1097" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="0">AI sessions</text>
+<rect x="548.0" y="952.0" width="444.0" height="192.0" rx="28" fill="#ffffff" fill-opacity="0.07"/>
+<text x="584" y="1045" font-family="Unbounded" font-weight="800" font-size="62" fill="#ffffff" text-anchor="start" letter-spacing="-2" class="value">866M</text>
+<text x="586" y="1097" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="0">tokens</text>
+</g>
+</svg>

@@ -1,0 +1,53 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">WHEN</text>
+<rect x="0.0" y="0.0" width="1080.0" height="600.0" rx="0" fill="#e3120b"/>
+<circle cx="984.0" cy="600.0" r="64.0" fill="#111111"/>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="end" letter-spacing="1">05 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#ffffff" stroke-width="3"/>
+<g class="part">
+<text x="88" y="226" font-family="Space Grotesk" font-weight="500" font-size="56" fill="#ffffff" text-anchor="start" letter-spacing="-1.5">You peaked at</text>
+<text x="76" y="520" font-family="Space Grotesk" font-weight="700" font-size="300" fill="#ffffff" text-anchor="start" letter-spacing="-13.5">15:00</text>
+</g>
+<g class="part">
+<text x="88" y="730" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="start" letter-spacing="-1">Peak brain, right after lunch.</text>
+<text x="88" y="788" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="start" letter-spacing="-1">The sandwich is working.</text>
+</g>
+<g class="part bars">
+<rect x="92.0" y="1129.8" width="29.7" height="20.2" rx="3" fill="#111111"/>
+<rect x="129.7" y="1139.9" width="29.7" height="10.1" rx="3" fill="#111111"/>
+<rect x="167.3" y="1144.9" width="29.7" height="5.1" rx="3" fill="#111111"/>
+<rect x="205.0" y="1146.0" width="29.7" height="4.0" rx="3" fill="#111111"/>
+<rect x="242.7" y="1146.0" width="29.7" height="4.0" rx="3" fill="#111111"/>
+<rect x="280.3" y="1146.0" width="29.7" height="4.0" rx="3" fill="#111111"/>
+<rect x="318.0" y="1146.0" width="29.7" height="4.0" rx="3" fill="#111111"/>
+<rect x="355.7" y="1139.9" width="29.7" height="10.1" rx="3" fill="#111111"/>
+<rect x="393.3" y="1099.4" width="29.7" height="50.6" rx="3" fill="#111111"/>
+<rect x="431.0" y="998.1" width="29.7" height="151.9" rx="3" fill="#111111"/>
+<rect x="468.7" y="930.6" width="29.7" height="219.4" rx="3" fill="#111111"/>
+<rect x="506.3" y="913.8" width="29.7" height="236.2" rx="3" fill="#111111"/>
+<rect x="544.0" y="964.4" width="29.7" height="185.6" rx="3" fill="#111111"/>
+<rect x="581.7" y="930.6" width="29.7" height="219.4" rx="3" fill="#111111"/>
+<rect x="619.3" y="896.9" width="29.7" height="253.1" rx="3" fill="#111111"/>
+<rect x="657.0" y="880.0" width="29.7" height="270.0" rx="3" fill="#e3120b"/>
+<rect x="694.7" y="896.9" width="29.7" height="253.1" rx="3" fill="#111111"/>
+<rect x="732.3" y="930.6" width="29.7" height="219.4" rx="3" fill="#111111"/>
+<rect x="770.0" y="964.4" width="29.7" height="185.6" rx="3" fill="#111111"/>
+<rect x="807.7" y="981.2" width="29.7" height="168.8" rx="3" fill="#111111"/>
+<rect x="845.3" y="964.4" width="29.7" height="185.6" rx="3" fill="#111111"/>
+<rect x="883.0" y="930.6" width="29.7" height="219.4" rx="3" fill="#111111"/>
+<rect x="920.7" y="913.8" width="29.7" height="236.2" rx="3" fill="#111111"/>
+<rect x="958.3" y="1048.8" width="29.7" height="101.2" rx="3" fill="#111111"/>
+<text x="92" y="1196" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">00</text>
+<text x="332.8" y="1196" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="middle" letter-spacing="0">06</text>
+<text x="558.8" y="1196" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="middle" letter-spacing="0">12</text>
+<text x="784.8" y="1196" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="middle" letter-spacing="0">18</text>
+</g>
+</svg>

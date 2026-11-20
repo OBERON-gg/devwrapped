@@ -1,0 +1,64 @@
+[licenses]
+allow = ["MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "Unicode-3.0", "Zlib", "OFL-1.1"]
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+deny = [
+    # http clients
+    { crate = "reqwest", reason = "devwrapped makes no network calls" },
+    { crate = "ureq", reason = "devwrapped makes no network calls" },
+    { crate = "curl", reason = "devwrapped makes no network calls" },
+    { crate = "curl-sys", reason = "devwrapped makes no network calls" },
+    { crate = "isahc", reason = "devwrapped makes no network calls" },
+    { crate = "attohttpc", reason = "devwrapped makes no network calls" },
+    { crate = "surf", reason = "devwrapped makes no network calls" },
+    { crate = "minreq", reason = "devwrapped makes no network calls" },
+    { crate = "hyper", reason = "devwrapped makes no network calls" },
+    { crate = "hyper-util", reason = "devwrapped makes no network calls" },
+    { crate = "h2", reason = "devwrapped makes no network calls" },
+    { crate = "h3", reason = "devwrapped makes no network calls" },
+    # http servers
+    { crate = "actix-web", reason = "devwrapped runs no server" },
+    { crate = "axum", reason = "devwrapped runs no server" },
+    { crate = "warp", reason = "devwrapped runs no server" },
+    { crate = "rocket", reason = "devwrapped runs no server" },
+    { crate = "tiny_http", reason = "devwrapped runs no server" },
+    { crate = "tide", reason = "devwrapped runs no server" },
+    { crate = "poem", reason = "devwrapped runs no server" },
+    # sockets, async network runtimes, and tls
+    { crate = "socket2", reason = "devwrapped opens no sockets" },
+    { crate = "mio", reason = "devwrapped opens no sockets" },
+    { crate = "tokio", reason = "devwrapped opens no sockets" },
+    { crate = "async-std", reason = "devwrapped opens no sockets" },
+    { crate = "quinn", reason = "devwrapped opens no sockets" },
+    { crate = "tungstenite", reason = "devwrapped opens no sockets" },
+    { crate = "rustls", reason = "devwrapped opens no sockets" },
+    { crate = "native-tls", reason = "devwrapped opens no sockets" },
+    { crate = "openssl", reason = "devwrapped opens no sockets" },
+    { crate = "openssl-sys", reason = "devwrapped opens no sockets" },
+    { crate = "async-io", reason = "devwrapped opens no sockets" },
+    { crate = "async-net", reason = "devwrapped opens no sockets" },
+    { crate = "smol", reason = "devwrapped opens no sockets" },
+    # ssh and dns
+    { crate = "ssh2", reason = "devwrapped opens no sockets" },
+    { crate = "libssh2-sys", reason = "devwrapped opens no sockets" },
+    { crate = "russh", reason = "devwrapped opens no sockets" },
+    { crate = "hickory-resolver", reason = "devwrapped makes no network calls" },
+    { crate = "trust-dns-resolver", reason = "devwrapped makes no network calls" },
+]
+# gix always builds gix-transport, so ban its network features instead of the crate
+features = [
+    { crate = "gix", deny = ["blocking-network-client", "async-network-client"] },
+    { crate = "gix-transport", deny = ["blocking-client", "async-client", "http-client"] },
+]
+# each one comes in through gix or the resvg font stack and has no fix on our side
+skip = [
+    { crate = "hashbrown@0.14.5", reason = "gix-tempfile pulls it in through dashmap" },
+    { crate = "hashbrown@0.16.1", reason = "gix-pack pulls it in through clru" },
+    { crate = "syn@2.0.119", reason = "gix-macros has not moved to syn 3" },
+]
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"

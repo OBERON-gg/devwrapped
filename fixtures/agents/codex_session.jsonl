@@ -1,0 +1,14 @@
+{"timestamp":"2026-03-02T10:00:00.500Z","type":"session_meta","payload":{"id":"c1","timestamp":"2026-03-02T10:00:00.000Z","cwd":"/home/dev/fake-private-path","git":{"branch":"fake-private-branch","repository_url":"https://dev:hunter2@example.com/repo.git"},"instructions":"secret instructions"}}
+{"timestamp":"2026-03-02T10:00:01.000Z","type":"turn_context","payload":{"model":"gpt-5.5-codex","cwd":"/home/dev/fake-private-path","approval_policy":"on-request"}}
+{"timestamp":"2026-03-02T10:00:02.000Z","type":"event_msg","payload":{"type":"user_message","message":"use the key AKIAFAKEFAKEFAKE0000"}}
+{"timestamp":"2026-03-02T10:00:03.000Z","type":"response_item","payload":{"type":"function_call","name":"exec_command","arguments":"{\"cmd\":\"cat /home/dev/fake-private-path/.env\"}","call_id":"call_1"}}
+{"timestamp":"2026-03-02T10:00:04.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_1","output":"TOKEN=hunter2"}}
+{"timestamp":"2026-03-02T10:00:05.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":1000,"cached_input_tokens":600,"output_tokens":50,"reasoning_output_tokens":20,"total_tokens":1050},"last_token_usage":{"input_tokens":1000,"cached_input_tokens":600,"output_tokens":50,"reasoning_output_tokens":20,"total_tokens":1050}}}}
+{"timestamp":"2026-03-02T10:00:05.100Z","type":"event_msg","payload":{"type":"token_count","info":null}}
+{"timestamp":"2026-03-02T10:00:06.000Z","type":"turn_context","payload":{"model":"gpt-5.5-codex-mini"}}
+{"timestamp":"2026-03-02T10:00:07.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","input":"*** Begin Patch hunter2","call_id":"call_2"}}
+{"timestamp":"2026-03-02T10:00:08.000Z","type":"response_item","payload":{"type":"function_call","name":"exec_command","arguments":"{\"cmd\":\"ls\"}","call_id":"call_3"}}
+{"timestamp":"2026-03-02T10:00:09.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":3000,"cached_input_tokens":2000,"output_tokens":120,"reasoning_output_tokens":40,"total_tokens":3120},"last_token_usage":{"input_tokens":2000,"cached_input_tokens":1400,"output_tokens":70,"reasoning_output_tokens":20,"total_tokens":2070}}}}
+{"timestamp":"2026-03-02T10:00:09.100Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":3000,"cached_input_tokens":2000,"output_tokens":120,"reasoning_output_tokens":40,"total_tokens":3120},"last_token_usage":{"input_tokens":2000,"cached_input_tokens":1400,"output_tokens":70,"reasoning_output_tokens":20,"total_tokens":2070}}}}
+{"timestamp":"2026-03-02T10:00:10.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"done, the password was hunter2"}]}}
+this line is not json

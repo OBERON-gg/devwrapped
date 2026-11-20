@@ -1,0 +1,45 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">THE SUMMARY</text>
+<rect x="0.0" y="0.0" width="1080.0" height="560.0" rx="0" fill="#e3120b"/>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="end" letter-spacing="1">12 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#ffffff" stroke-width="3"/>
+<g class="part">
+<text x="76" y="330" font-family="Space Grotesk" font-weight="700" font-size="160" fill="#ffffff" text-anchor="start" letter-spacing="-7.2">2026,</text>
+<text x="76" y="480" font-family="Space Grotesk" font-weight="700" font-size="132" fill="#ffffff" text-anchor="start" letter-spacing="-7.2">wrapped.</text>
+</g>
+<g class="part">
+<circle cx="850.0" cy="560.0" r="150.0" fill="#111111"/>
+<text x="850" y="500" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="4">AWARDED</text>
+<text x="850" y="584" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#ffffff" text-anchor="middle" letter-spacing="-2.2">Agent</text>
+<text x="850" y="629.6" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#ffffff" text-anchor="middle" letter-spacing="-2.2">Whisperer</text>
+</g>
+<g class="part">
+<line x1="88" y1="748.0" x2="992" y2="748.0" stroke="#111111" stroke-width="3"/>
+<text x="992" y="800" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="end" letter-spacing="-1.5">1,284</text>
+<text x="88" y="800" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">commits</text>
+<line x1="88" y1="822.0" x2="992" y2="822.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="876" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="end" letter-spacing="-1.5">23 days</text>
+<text x="88" y="876" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">longest streak</text>
+<line x1="88" y1="898.0" x2="992" y2="898.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="952" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="end" letter-spacing="-1.5">Rust</text>
+<text x="88" y="952" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">top language</text>
+<line x1="88" y1="974.0" x2="992" y2="974.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1028" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="end" letter-spacing="-1.5">48,213</text>
+<text x="88" y="1028" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">shell commands</text>
+<line x1="88" y1="1050.0" x2="992" y2="1050.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1104" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="end" letter-spacing="-1.5">179</text>
+<text x="88" y="1104" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">AI sessions</text>
+<line x1="88" y1="1126.0" x2="992" y2="1126.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1180" font-family="Space Grotesk" font-weight="700" font-size="48" fill="#111111" text-anchor="end" letter-spacing="-1.5">866M</text>
+<text x="88" y="1180" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">tokens</text>
+<line x1="88" y1="1202.0" x2="992" y2="1202.0" stroke="#111111" stroke-width="1"/>
+</g>
+</svg>

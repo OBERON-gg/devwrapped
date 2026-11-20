@@ -1,0 +1,22 @@
+name: Feature request
+description: An idea for a stat, a slide, an award, or a source
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        devwrapped stays offline and keeps only counts. Ideas that need a network connection, an account, or private text from a source do not fit.
+
+        Please do not paste shell history, agent logs, commit messages, file names, or paths.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like devwrapped to show or do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: Who would use it, and how?

@@ -1,0 +1,39 @@
+#1767225600
+AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKE0000 aws s3 ls
+#1767225601
+mysql -u root -phunter2
+#1767225602
+sudo -u hunter2 env TOKEN=sk-fake-0000 git push https://dev:hunter2@example.com/repo.git
+#1767225603
+cat <<EOF
+password: hunter2
+key: AKIAFAKEFAKEFAKE0000
+EOF
+#1767225604
+AKIAFAKEFAKEFAKE0000AKIAFAKEFAKEFAKE0000 --login
+export TOKEN=sk-fake-0000
+cd /home/dev/fake-private-path
+hunter2
+hunter2
+hunter2
+AKIAFAKEFAKEFAKE0000
+AKIAFAKEFAKEFAKE0000
+AKIAFAKEFAKEFAKE0000
+sudo -iu hunter2 psql
+sudo -iu hunter2 psql
+sudo -iu hunter2 psql
+sudo --user hunter2 git status
+sudo --user hunter2 git status
+sudo --user hunter2 git status
+time --output fake-private-path.txt make
+time --output fake-private-path.txt make
+time --output fake-private-path.txt make
+yarn fake-private-path
+yarn fake-private-path
+yarn fake-private-path
+dotnet fake-private-path.dll
+dotnet fake-private-path.dll
+dotnet fake-private-path.dll
+deno fake-private-path.ts
+deno fake-private-path.ts
+deno fake-private-path.ts

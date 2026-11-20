@@ -1,0 +1,52 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#f3ede1"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="1">No. 05</text>
+<text x="207.8" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">/ 12</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="3">WHEN</text>
+<line x1="88" y1="132" x2="992" y2="132" stroke="#1d1b18" stroke-width="2"/>
+<line x1="88" y1="1230" x2="992" y2="1230" stroke="#1d1b18" stroke-width="2"/>
+<text x="88" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">devwrapped / 2026</text>
+<text x="992" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="1">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="220" font-family="Space Grotesk" font-weight="300" font-size="64" fill="#1d1b18" text-anchor="start" letter-spacing="-2">You peaked at</text>
+<text x="70" y="520" font-family="Space Grotesk" font-weight="700" font-size="300" fill="#e0402b" text-anchor="start" letter-spacing="-12">15:00</text>
+</g>
+<g class="part">
+<text x="88" y="640" font-family="Space Grotesk" font-weight="700" font-size="44" fill="#1d1b18" text-anchor="start" letter-spacing="-1">Peak brain, right after lunch.</text>
+<text x="88" y="694" font-family="Space Grotesk" font-weight="700" font-size="44" fill="#1d1b18" text-anchor="start" letter-spacing="-1">The sandwich is working.</text>
+</g>
+<g class="part bars">
+<rect x="92.0" y="1147.5" width="29.7" height="22.5" rx="3" fill="#2643a6"/>
+<rect x="129.7" y="1158.8" width="29.7" height="11.2" rx="3" fill="#2643a6"/>
+<rect x="167.3" y="1164.4" width="29.7" height="5.6" rx="3" fill="#2643a6"/>
+<rect x="205.0" y="1166.0" width="29.7" height="4.0" rx="3" fill="#2643a6"/>
+<rect x="242.7" y="1166.0" width="29.7" height="4.0" rx="3" fill="#2643a6"/>
+<rect x="280.3" y="1166.0" width="29.7" height="4.0" rx="3" fill="#2643a6"/>
+<rect x="318.0" y="1166.0" width="29.7" height="4.0" rx="3" fill="#2643a6"/>
+<rect x="355.7" y="1158.8" width="29.7" height="11.2" rx="3" fill="#2643a6"/>
+<rect x="393.3" y="1113.8" width="29.7" height="56.2" rx="3" fill="#2643a6"/>
+<rect x="431.0" y="1001.2" width="29.7" height="168.8" rx="3" fill="#2643a6"/>
+<rect x="468.7" y="926.2" width="29.7" height="243.8" rx="3" fill="#2643a6"/>
+<rect x="506.3" y="907.5" width="29.7" height="262.5" rx="3" fill="#2643a6"/>
+<rect x="544.0" y="963.8" width="29.7" height="206.2" rx="3" fill="#2643a6"/>
+<rect x="581.7" y="926.2" width="29.7" height="243.8" rx="3" fill="#2643a6"/>
+<rect x="619.3" y="888.8" width="29.7" height="281.2" rx="3" fill="#2643a6"/>
+<rect x="657.0" y="870.0" width="29.7" height="300.0" rx="3" fill="#e0402b"/>
+<rect x="694.7" y="888.8" width="29.7" height="281.2" rx="3" fill="#2643a6"/>
+<rect x="732.3" y="926.2" width="29.7" height="243.8" rx="3" fill="#2643a6"/>
+<rect x="770.0" y="963.8" width="29.7" height="206.2" rx="3" fill="#2643a6"/>
+<rect x="807.7" y="982.5" width="29.7" height="187.5" rx="3" fill="#2643a6"/>
+<rect x="845.3" y="963.8" width="29.7" height="206.2" rx="3" fill="#2643a6"/>
+<rect x="883.0" y="926.2" width="29.7" height="243.8" rx="3" fill="#2643a6"/>
+<rect x="920.7" y="907.5" width="29.7" height="262.5" rx="3" fill="#2643a6"/>
+<rect x="958.3" y="1057.5" width="29.7" height="112.5" rx="3" fill="#2643a6"/>
+<text x="92" y="1210" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">00</text>
+<text x="332.8" y="1210" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="middle" letter-spacing="0">06</text>
+<text x="558.8" y="1210" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="middle" letter-spacing="0">12</text>
+<text x="784.8" y="1210" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="middle" letter-spacing="0">18</text>
+</g>
+</svg>

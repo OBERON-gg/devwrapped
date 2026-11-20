@@ -1,0 +1,43 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">THE YEAR IN REVIEW</text>
+<rect x="0.0" y="0.0" width="1080.0" height="640.0" rx="0" fill="#e3120b"/>
+<circle cx="984.0" cy="640.0" r="64.0" fill="#111111"/>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="end" letter-spacing="1">01 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#ffffff" stroke-width="3"/>
+<g class="part">
+<text x="88" y="270" font-family="Space Grotesk" font-weight="500" font-size="80" fill="#ffffff" text-anchor="start" letter-spacing="-1.5">Your</text>
+<text x="76" y="560" font-family="Space Grotesk" font-weight="700" font-size="290" fill="#ffffff" text-anchor="start" letter-spacing="-13.1">2026,</text>
+</g>
+<g class="part">
+<text x="88" y="790" font-family="Space Grotesk" font-weight="700" font-size="170" fill="#e3120b" text-anchor="start" letter-spacing="-7.7">wrapped.</text>
+</g>
+<text x="88" y="870" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">We read your git log, shell history, and agent logs.</text>
+<text x="88" y="908" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">None of it left your machine. Relax.</text>
+<g class="part">
+<text x="88" y="966" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="3">IN THIS ISSUE</text>
+<line x1="88" y1="984.0" x2="992" y2="984.0" stroke="#111111" stroke-width="2"/>
+<text x="88" y="1022" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#e3120b" text-anchor="start" letter-spacing="0">01</text>
+<text x="158" y="1022" font-family="Space Grotesk" font-weight="700" font-size="32" fill="#111111" text-anchor="start" letter-spacing="0">git</text>
+<text x="992" y="1022" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="end" letter-spacing="0">commits, streaks, languages</text>
+<line x1="88" y1="1040.0" x2="992" y2="1040.0" stroke="#111111" stroke-width="2"/>
+<text x="88" y="1078" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#e3120b" text-anchor="start" letter-spacing="0">02</text>
+<text x="158" y="1078" font-family="Space Grotesk" font-weight="700" font-size="32" fill="#111111" text-anchor="start" letter-spacing="0">shell</text>
+<text x="992" y="1078" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="end" letter-spacing="0">commands and typos</text>
+<line x1="88" y1="1096.0" x2="992" y2="1096.0" stroke="#111111" stroke-width="2"/>
+<text x="88" y="1134" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#e3120b" text-anchor="start" letter-spacing="0">03</text>
+<text x="158" y="1134" font-family="Space Grotesk" font-weight="700" font-size="32" fill="#111111" text-anchor="start" letter-spacing="0">agents</text>
+<text x="992" y="1134" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="end" letter-spacing="0">sessions and tokens</text>
+<line x1="88" y1="1152.0" x2="992" y2="1152.0" stroke="#111111" stroke-width="2"/>
+<text x="88" y="1190" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#e3120b" text-anchor="start" letter-spacing="0">04</text>
+<text x="158" y="1190" font-family="Space Grotesk" font-weight="700" font-size="32" fill="#111111" text-anchor="start" letter-spacing="0">you</text>
+<text x="992" y="1190" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="end" letter-spacing="0">the award</text>
+</g>
+</svg>

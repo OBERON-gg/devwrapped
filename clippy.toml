@@ -1,0 +1,11 @@
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
+
+disallowed-types = [
+    { path = "std::net::TcpStream", reason = "devwrapped makes no network calls" },
+    { path = "std::net::TcpListener", reason = "devwrapped runs no server" },
+    { path = "std::net::UdpSocket", reason = "devwrapped opens no sockets" },
+]
+disallowed-methods = [
+    { path = "std::net::ToSocketAddrs::to_socket_addrs", reason = "devwrapped makes no network calls" },
+]

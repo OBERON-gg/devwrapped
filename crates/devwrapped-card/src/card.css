@@ -1,0 +1,196 @@
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+  --slide: 400ms;
+  --enter: 500ms;
+  --exit: 180ms;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* every slide sits in the same cell, so leaving and entering overlap */
+.slide {
+  grid-area: 1 / 1;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 240ms var(--ease-out),
+    visibility 0s linear 240ms;
+}
+
+.slide.current {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 320ms var(--ease-out);
+}
+
+svg {
+  display: block;
+  width: min(100vw - 32px, (100vh - 32px) * 0.8);
+  /* the dynamic viewport height leaves out the mobile toolbar */
+  width: min(100vw - 32px, (100dvh - 32px) * 0.8);
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
+  /* the card shares the page color, so the shadow alone loses its edge on dark themes */
+  outline: 1px solid var(--edge);
+  outline-offset: -1px;
+}
+
+/* the content moves sideways, the background and the top bar stay put */
+.part {
+  transform-box: view-box;
+  transition:
+    transform var(--slide) var(--ease-drawer),
+    opacity var(--exit) var(--ease-out);
+}
+
+.before .part {
+  transform: translateX(-6%);
+  opacity: 0;
+}
+
+.after .part {
+  transform: translateX(6%);
+  opacity: 0;
+}
+
+.current .part {
+  transition:
+    transform var(--slide) var(--ease-drawer) var(--delay, 0ms),
+    opacity var(--enter) var(--ease-out) var(--delay, 0ms);
+}
+
+/* lines rise into focus, and reset only after the slide is gone */
+.part text,
+.bars rect,
+.hbars rect,
+.cells rect,
+.progress {
+  transition:
+    transform 0s linear 260ms,
+    opacity 0s linear 260ms,
+    filter 0s linear 260ms;
+}
+
+.slide:not(.current) .part text {
+  transform: translateY(12px);
+  opacity: 0;
+  filter: blur(4px);
+}
+
+.slide:not(.current) .part text.value {
+  transform-box: fill-box;
+  transform-origin: 0 100%;
+  transform: translateY(12px) scale(0.96);
+}
+
+.current .part text {
+  transition:
+    transform var(--enter) var(--ease-out),
+    opacity var(--enter) var(--ease-out),
+    filter var(--enter) var(--ease-out);
+  transition-delay: calc(var(--delay, 0ms) + var(--line, 0ms));
+}
+
+/* bars grow from their baseline, because the height is the number */
+.bars rect {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+
+.hbars rect {
+  transform-box: fill-box;
+  transform-origin: 0 50%;
+}
+
+.slide:not(.current) .bars rect {
+  transform: scaleY(0);
+}
+
+.slide:not(.current) .hbars rect {
+  transform: scaleX(0);
+}
+
+.cells rect {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.slide:not(.current) .cells rect {
+  transform: scale(0.6);
+  opacity: 0;
+}
+
+.current .bars rect,
+.current .hbars rect,
+.current .cells rect {
+  transition:
+    transform 700ms var(--ease-out),
+    opacity 300ms var(--ease-out);
+  transition-delay: calc(var(--delay, 0ms) + 120ms + var(--item, 0ms));
+}
+
+.progress {
+  transform-box: fill-box;
+  transform-origin: 0 50%;
+}
+
+.slide:not(.current) .progress {
+  transform: scaleX(0);
+}
+
+.current .progress {
+  transition: transform 700ms var(--ease-out) 120ms;
+}
+
+/* a held arrow key jumps without motion */
+.instant .slide,
+.instant .part,
+.instant .part text,
+.instant rect {
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide,
+  .slide.current {
+    transition-duration: 200ms;
+  }
+
+  .part,
+  .part text,
+  .part text.value,
+  .bars rect,
+  .hbars rect,
+  .cells rect,
+  .progress {
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .current .part text,
+  .current .cells rect {
+    transition: opacity 200ms ease;
+  }
+}

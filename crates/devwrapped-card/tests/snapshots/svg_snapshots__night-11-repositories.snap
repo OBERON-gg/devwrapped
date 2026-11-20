@@ -1,0 +1,48 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s11-glow0"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.55"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient><radialGradient id="s11-glow1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><radialGradient id="s11-glow2"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.6"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="540" cy="700" r="760" fill="url(#s11-glow0)"/><circle cx="1000" cy="120" r="420" fill="url(#s11-glow1)"/><circle cx="40" cy="1300" r="380" fill="url(#s11-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">11 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="851.3" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="250" font-family="Unbounded" font-weight="900" font-size="84" fill="#ffffff" text-anchor="start" letter-spacing="-3">Where your</text>
+<text x="88" y="346" font-family="Unbounded" font-weight="900" font-size="84" fill="#ffffff" text-anchor="start" letter-spacing="-3">commits lived</text>
+<text x="92" y="448" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#a9a3d6" text-anchor="start" letter-spacing="0">devwrapped got 32% of your commits.</text>
+<text x="92" y="492" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#a9a3d6" text-anchor="start" letter-spacing="0">The others noticed.</text>
+</g>
+<g class="part">
+<rect x="88.0" y="586.0" width="904.0" height="92.0" rx="46" fill="#ffffff" fill-opacity="0.07"/>
+<text x="948" y="646" font-family="JetBrains Mono" font-weight="700" font-size="32" fill="#c8ff3d" text-anchor="end" letter-spacing="0">412</text>
+<text x="132" y="648" font-family="Unbounded" font-weight="700" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">devwrapped</text>
+<rect x="88.0" y="696.0" width="904.0" height="92.0" rx="46" fill="#ffffff" fill-opacity="0.07"/>
+<text x="948" y="756" font-family="JetBrains Mono" font-weight="700" font-size="32" fill="#c8ff3d" text-anchor="end" letter-spacing="0">233</text>
+<text x="132" y="758" font-family="Unbounded" font-weight="700" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">dotfiles</text>
+<rect x="88.0" y="806.0" width="904.0" height="92.0" rx="46" fill="#ffffff" fill-opacity="0.07"/>
+<text x="948" y="866" font-family="JetBrains Mono" font-weight="700" font-size="32" fill="#c8ff3d" text-anchor="end" letter-spacing="0">198</text>
+<text x="132" y="868" font-family="Unbounded" font-weight="700" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">homelab</text>
+<rect x="88.0" y="916.0" width="904.0" height="92.0" rx="46" fill="#ffffff" fill-opacity="0.07"/>
+<text x="948" y="976" font-family="JetBrains Mono" font-weight="700" font-size="32" fill="#c8ff3d" text-anchor="end" letter-spacing="0">151</text>
+<text x="132" y="978" font-family="Unbounded" font-weight="700" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">api-server</text>
+<rect x="88.0" y="1026.0" width="904.0" height="92.0" rx="46" fill="#ffffff" fill-opacity="0.07"/>
+<text x="948" y="1086" font-family="JetBrains Mono" font-weight="700" font-size="32" fill="#c8ff3d" text-anchor="end" letter-spacing="0">64</text>
+<text x="132" y="1088" font-family="Unbounded" font-weight="700" font-size="40" fill="#ffffff" text-anchor="start" letter-spacing="0">blog</text>
+</g>
+</svg>

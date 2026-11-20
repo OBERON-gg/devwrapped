@@ -1,0 +1,63 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s5-glow0"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.75"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient><radialGradient id="s5-glow1"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.8"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient><radialGradient id="s5-glow2"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="900" cy="260" r="620" fill="url(#s5-glow0)"/><circle cx="160" cy="1150" r="700" fill="url(#s5-glow1)"/><circle cx="980" cy="1250" r="420" fill="url(#s5-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">05 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="393.3" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="240" font-family="Unbounded" font-weight="400" font-size="44" fill="#a9a3d6" text-anchor="start" letter-spacing="0">You peaked at</text>
+<text x="76" y="530" font-family="Unbounded" font-weight="900" font-size="259" fill="#ffffff" text-anchor="start" letter-spacing="-10">15:00</text>
+</g>
+<g class="part">
+<text x="88" y="650" font-family="Unbounded" font-weight="700" font-size="42" fill="#c8ff3d" text-anchor="start" letter-spacing="0">Peak brain, right after lunch.</text>
+<text x="88" y="706" font-family="Unbounded" font-weight="700" font-size="42" fill="#c8ff3d" text-anchor="start" letter-spacing="0">The sandwich is working.</text>
+</g>
+<g class="part bars">
+<rect x="93.0" y="1156.8" width="27.7" height="23.2" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="130.7" y="1168.4" width="27.7" height="11.6" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="168.3" y="1174.2" width="27.7" height="5.8" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="206.0" y="1176.0" width="27.7" height="4.0" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="243.7" y="1176.0" width="27.7" height="4.0" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="281.3" y="1176.0" width="27.7" height="4.0" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="319.0" y="1176.0" width="27.7" height="4.0" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="356.7" y="1168.4" width="27.7" height="11.6" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="394.3" y="1121.9" width="27.7" height="58.1" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="432.0" y="1005.6" width="27.7" height="174.4" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="469.7" y="928.1" width="27.7" height="251.9" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="507.3" y="908.8" width="27.7" height="271.2" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="545.0" y="966.9" width="27.7" height="213.1" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="582.7" y="928.1" width="27.7" height="251.9" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="620.3" y="889.4" width="27.7" height="290.6" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="658.0" y="870.0" width="27.7" height="310.0" rx="6" fill="#c8ff3d" fill-opacity="1"/>
+<rect x="695.7" y="889.4" width="27.7" height="290.6" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="733.3" y="928.1" width="27.7" height="251.9" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="771.0" y="966.9" width="27.7" height="213.1" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="808.7" y="986.2" width="27.7" height="193.8" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="846.3" y="966.9" width="27.7" height="213.1" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="884.0" y="928.1" width="27.7" height="251.9" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="921.7" y="908.8" width="27.7" height="271.2" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<rect x="959.3" y="1063.8" width="27.7" height="116.2" rx="6" fill="#ffffff" fill-opacity="0.28"/>
+<text x="93" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="1">00</text>
+<text x="332.8" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">06</text>
+<text x="558.8" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">12</text>
+<text x="784.8" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">18</text>
+</g>
+</svg>

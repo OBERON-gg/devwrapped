@@ -1,0 +1,48 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#f3ede1"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="1">No. 08</text>
+<text x="207.8" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">/ 12</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="3">AGENTS</text>
+<line x1="88" y1="132" x2="992" y2="132" stroke="#1d1b18" stroke-width="2"/>
+<line x1="88" y1="1230" x2="992" y2="1230" stroke="#1d1b18" stroke-width="2"/>
+<text x="88" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="1">devwrapped / 2026</text>
+<text x="992" y="1278" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="end" letter-spacing="1">cargo install devwrapped</text>
+<g class="part">
+<text x="70" y="400" font-family="Space Grotesk" font-weight="700" font-size="280" fill="#1d1b18" text-anchor="start" letter-spacing="-12" class="value">179</text>
+</g>
+<g class="part">
+<text x="88" y="500" font-family="Space Grotesk" font-weight="700" font-size="80" fill="#e0402b" text-anchor="start" letter-spacing="-3">sessions with your AI.</text>
+<text x="88" y="590" font-family="Space Grotesk" font-weight="300" font-size="42" fill="#1d1b18" text-anchor="start" letter-spacing="-2">At this point it should come to standup.</text>
+<text x="88" y="648" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">Claude Code 142 · Codex CLI 37 · 30 days together</text>
+<text x="88" y="688" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="0">Mostly claude-opus-5-5. You have a type.</text>
+</g>
+<g class="part">
+<text x="88" y="768" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="3">TOOLS</text>
+<text x="518" y="822" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">5,210</text>
+<text x="88" y="822" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">Read</text>
+<line x1="88.0" y1="840.0" x2="518.0" y2="840.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+<text x="518" y="876" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">3,388</text>
+<text x="88" y="876" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">Edit</text>
+<line x1="88.0" y1="894.0" x2="518.0" y2="894.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+<text x="518" y="930" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">2,954</text>
+<text x="88" y="930" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">Bash</text>
+<line x1="88.0" y1="948.0" x2="518.0" y2="948.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+<text x="518" y="984" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">1,470</text>
+<text x="88" y="984" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">Grep</text>
+<line x1="88.0" y1="1002.0" x2="518.0" y2="1002.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+<text x="518" y="1038" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">610</text>
+<text x="88" y="1038" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">Write</text>
+<line x1="88.0" y1="1056.0" x2="518.0" y2="1056.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+<text x="562" y="768" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#6f685d" text-anchor="start" letter-spacing="3">MODELS</text>
+<text x="992" y="822" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">9,120</text>
+<text x="562" y="822" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">claude-opus-5-5</text>
+<line x1="562.0" y1="840.0" x2="992.0" y2="840.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+<text x="992" y="876" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#1d1b18" text-anchor="end" letter-spacing="0">2,210</text>
+<text x="562" y="876" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#1d1b18" text-anchor="start" letter-spacing="0">gpt-5.5-codex</text>
+<line x1="562.0" y1="894.0" x2="992.0" y2="894.0" stroke="#1d1b18" stroke-opacity="0.22" stroke-width="2"/>
+</g>
+</svg>

@@ -1,0 +1,53 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">GIT</text>
+<rect x="0.0" y="0.0" width="1080.0" height="660.0" rx="0" fill="#e3120b"/>
+<circle cx="984.0" cy="660.0" r="64.0" fill="#111111"/>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="end" letter-spacing="1">03 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#ffffff" stroke-width="3"/>
+<g class="part">
+<text x="88" y="226" font-family="Space Grotesk" font-weight="500" font-size="56" fill="#ffffff" text-anchor="start" letter-spacing="-1.5">Your longest streak</text>
+<text x="76" y="590" font-family="Space Grotesk" font-weight="700" font-size="380" fill="#ffffff" text-anchor="start" letter-spacing="-17.1" class="value">23</text>
+</g>
+<g class="part">
+<text x="88" y="790" font-family="Space Grotesk" font-weight="700" font-size="110" fill="#e3120b" text-anchor="start" letter-spacing="-5">days in a row.</text>
+<text x="88" y="870" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">The streak is your personality now.</text>
+</g>
+<g class="part cells">
+<rect x="88" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="152.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="217" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="281.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="346" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="410.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="475" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="539.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="604" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="668.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="733" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="797.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="862" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="926.5" y="1020" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="88" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="152.5" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="217" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="281.5" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="346" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="410.5" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="475" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="539.5" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="604" y="1084" width="52" height="52" fill="#e3120b" fill-opacity="1"/>
+<rect x="668.5" y="1084" width="52" height="52" fill="#111111" fill-opacity="0.1"/>
+<rect x="733" y="1084" width="52" height="52" fill="#111111" fill-opacity="0.1"/>
+<rect x="797.5" y="1084" width="52" height="52" fill="#111111" fill-opacity="0.1"/>
+<rect x="862" y="1084" width="52" height="52" fill="#111111" fill-opacity="0.1"/>
+<rect x="926.5" y="1084" width="52" height="52" fill="#111111" fill-opacity="0.1"/>
+</g>
+</svg>

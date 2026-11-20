@@ -1,0 +1,53 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s9-glow0"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.75"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient><radialGradient id="s9-glow1"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.8"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient><radialGradient id="s9-glow2"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="900" cy="260" r="620" fill="url(#s9-glow0)"/><circle cx="160" cy="1150" r="700" fill="url(#s9-glow1)"/><circle cx="980" cy="1250" r="420" fill="url(#s9-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">09 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="698.7" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="240" font-family="Unbounded" font-weight="400" font-size="44" fill="#a9a3d6" text-anchor="start" letter-spacing="0">Your AI went through</text>
+<text x="76" y="500" font-family="Unbounded" font-weight="900" font-size="235" fill="#ffffff" text-anchor="start" letter-spacing="-10" class="value">866M</text>
+<text x="88" y="640" font-family="Unbounded" font-weight="900" font-size="120" fill="#c8ff3d" text-anchor="start" letter-spacing="-3">tokens.</text>
+</g>
+<g class="part">
+<text x="92" y="760" font-family="JetBrains Mono" font-weight="400" font-size="34" fill="#ffffff" text-anchor="start" letter-spacing="0">812M were cache reads.</text>
+<text x="92" y="808" font-family="JetBrains Mono" font-weight="400" font-size="34" fill="#ffffff" text-anchor="start" letter-spacing="0">Your AI has a great memory.</text>
+<text x="92" y="856" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="1">About 7,218 novels’ worth, none with a plot.</text>
+</g>
+<g class="part hbars">
+<text x="88" y="956" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">input</text>
+<rect x="340.0" y="930.0" width="440.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.12"/>
+<rect x="340.0" y="930.0" width="32.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.6"/>
+<text x="992" y="956" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">3.4M</text>
+<text x="88" y="1020" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">output</text>
+<rect x="340.0" y="994.0" width="440.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.12"/>
+<rect x="340.0" y="994.0" width="32.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.6"/>
+<text x="992" y="1020" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">9.8M</text>
+<text x="88" y="1084" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">cache reads</text>
+<rect x="340.0" y="1058.0" width="440.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.12"/>
+<rect x="340.0" y="1058.0" width="409.2" height="32.0" rx="16" fill="#c8ff3d" fill-opacity="1"/>
+<text x="992" y="1084" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">812M</text>
+<text x="88" y="1148" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="0">cache writes</text>
+<rect x="340.0" y="1122.0" width="440.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.12"/>
+<rect x="340.0" y="1122.0" width="32.0" height="32.0" rx="16" fill="#ffffff" fill-opacity="0.6"/>
+<text x="992" y="1148" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#c8ff3d" text-anchor="end" letter-spacing="0">41M</text>
+</g>
+</svg>

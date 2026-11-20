@@ -1,0 +1,53 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<defs><radialGradient id="s2-glow0"><stop offset="0" stop-color="#6a4bff" stop-opacity="0.85"/><stop offset="1" stop-color="#6a4bff" stop-opacity="0"/></radialGradient><radialGradient id="s2-glow1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><radialGradient id="s2-glow2"><stop offset="0" stop-color="#ff3d9a" stop-opacity="0.3"/><stop offset="1" stop-color="#ff3d9a" stop-opacity="0"/></radialGradient></defs>
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#0c0a1d"/>
+<circle cx="1000" cy="420" r="560" fill="url(#s2-glow0)"/><circle cx="60" cy="1300" r="600" fill="url(#s2-glow1)"/><circle cx="100" cy="80" r="300" fill="url(#s2-glow2)"/>
+<text x="88" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="2">devwrapped · 2026</text>
+<text x="992" y="104" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="end" letter-spacing="2">02 / 12</text>
+<rect x="88.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="164.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect class="progress" x="164.3" y="132" width="64.3" height="6" rx="3" fill="#ffffff" fill-opacity="0.9"/>
+<rect x="240.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="317.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="393.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="469.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="546.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="622.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="698.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="775.0" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="851.3" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<rect x="927.7" y="132.0" width="64.3" height="6.0" rx="3" fill="#ffffff" fill-opacity="0.18"/>
+<text x="540" y="1294" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="2">cargo install devwrapped</text>
+<g class="part">
+<text x="88" y="240" font-family="Unbounded" font-weight="400" font-size="44" fill="#a9a3d6" text-anchor="start" letter-spacing="0">This year you shipped</text>
+<text x="76" y="500" font-family="Unbounded" font-weight="900" font-size="260" fill="#ffffff" text-anchor="start" letter-spacing="-10" class="value">1,284</text>
+<text x="88" y="640" font-family="Unbounded" font-weight="900" font-size="120" fill="#c8ff3d" text-anchor="start" letter-spacing="-3">commits.</text>
+</g>
+<g class="part">
+<rect x="88.0" y="700.0" width="230.9" height="62.0" rx="31" fill="#c8ff3d"/>
+<text x="118" y="742" font-family="Unbounded" font-weight="700" font-size="30" fill="#0c0a1d" text-anchor="start" letter-spacing="0">3.5 a day</text>
+<text x="92" y="840" font-family="JetBrains Mono" font-weight="400" font-size="34" fill="#ffffff" text-anchor="start" letter-spacing="0">Your keyboard has filed a complaint.</text>
+<text x="92" y="894" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="1">Tuesdays carried the team.</text>
+<text x="92" y="932" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="start" letter-spacing="1">Sundays, you touched grass.</text>
+</g>
+<g class="part bars">
+<rect x="88.0" y="1004.6" width="100.0" height="175.4" rx="12" fill="#ffffff" fill-opacity="0.28"/>
+<text x="138" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">M</text>
+<rect x="220.0" y="990.0" width="100.0" height="190.0" rx="12" fill="#c8ff3d" fill-opacity="1"/>
+<text x="270" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">T</text>
+<rect x="352.0" y="999.7" width="100.0" height="180.3" rx="12" fill="#ffffff" fill-opacity="0.28"/>
+<text x="402" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">W</text>
+<rect x="484.0" y="1009.5" width="100.0" height="170.5" rx="12" fill="#ffffff" fill-opacity="0.28"/>
+<text x="534" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">T</text>
+<rect x="616.0" y="1029.0" width="100.0" height="151.0" rx="12" fill="#ffffff" fill-opacity="0.28"/>
+<text x="666" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">F</text>
+<rect x="748.0" y="1126.4" width="100.0" height="53.6" rx="12" fill="#ffffff" fill-opacity="0.28"/>
+<text x="798" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">S</text>
+<rect x="880.0" y="1175.1" width="100.0" height="4.9" rx="12" fill="#ffffff" fill-opacity="0.28"/>
+<text x="930" y="1220" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#a9a3d6" text-anchor="middle" letter-spacing="1">S</text>
+</g>
+</svg>

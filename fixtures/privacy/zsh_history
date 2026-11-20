@@ -1,0 +1,19 @@
+: 1767225600:0;AWS_ACCESS_KEY_ID=AKIAFAKEFAKEFAKE0000 aws s3 ls
+: 1767225601:0;mysql -u root -phunter2
+: 1767225602:0;sudo -u hunter2 env TOKEN=sk-fake-0000 git push https://dev:hunter2@example.com/repo.git
+: 1767225603:0;curl -H "Authorization: Bearer sk-fake-0000" https://example.com
+: 1767225604:0;echo hunter2 \
+AKIAFAKEFAKEFAKE0000 \
+sk-fake-0000
+: 1767225605:0;AKIAFAKEFAKEFAKE0000AKIAFAKEFAKEFAKE0000 --login
+: 1767225606:0;cd /home/dev/fake-private-path
+: 1767225607:0;./fake-private-path/run.sh hunter2
+: 1767225608:0;hunter2
+: 1767225609:0;hunter2
+: 1767225610:0;hunter2
+: 1767225611:0;sudo -iu hunter2 psql
+: 1767225612:0;sudo -iu hunter2 psql
+: 1767225613:0;sudo -iu hunter2 psql
+: 1767225614:0;yarn fake-private-path
+: 1767225615:0;yarn fake-private-path
+: 1767225616:0;yarn fake-private-path

@@ -1,0 +1,45 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">GIT</text>
+<rect x="0.0" y="0.0" width="1080.0" height="590.0" rx="0" fill="#e3120b"/>
+<circle cx="984.0" cy="590.0" r="64.0" fill="#111111"/>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="end" letter-spacing="1">02 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#ffffff" stroke-width="3"/>
+<g class="part">
+<text x="88" y="226" font-family="Space Grotesk" font-weight="500" font-size="56" fill="#ffffff" text-anchor="start" letter-spacing="-1.5">You made</text>
+<text x="76" y="510" font-family="Space Grotesk" font-weight="700" font-size="290" fill="#ffffff" text-anchor="start" letter-spacing="-13.1" class="value">1,284</text>
+</g>
+<g class="part">
+<text x="88" y="720" font-family="Space Grotesk" font-weight="700" font-size="120" fill="#e3120b" text-anchor="start" letter-spacing="-5.4">commits.</text>
+<rect x="620.2" y="644.0" width="198.8" height="72.0" rx="0" fill="#111111"/>
+<text x="640.2" y="694" font-family="Space Grotesk" font-weight="700" font-size="36" fill="#ffffff" text-anchor="start" letter-spacing="0">3.5 a day</text>
+</g>
+<g class="part">
+<text x="88" y="810" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">Your keyboard has filed a complaint.</text>
+<text x="88" y="850" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">Tuesdays carried the team.</text>
+<text x="88" y="890" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">Sundays, you touched grass.</text>
+</g>
+<g class="part bars">
+<rect x="88.0" y="1003.1" width="113.1" height="156.9" rx="0" fill="#111111"/>
+<text x="88" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">MON</text>
+<rect x="217.1" y="990.0" width="113.1" height="170.0" rx="0" fill="#e3120b"/>
+<text x="217.1" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">TUE</text>
+<rect x="346.3" y="998.7" width="113.1" height="161.3" rx="0" fill="#111111"/>
+<text x="346.3" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">WED</text>
+<rect x="475.4" y="1007.4" width="113.1" height="152.6" rx="0" fill="#111111"/>
+<text x="475.4" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">THU</text>
+<rect x="604.6" y="1024.9" width="113.1" height="135.1" rx="0" fill="#111111"/>
+<text x="604.6" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">FRI</text>
+<rect x="733.7" y="1112.1" width="113.1" height="47.9" rx="0" fill="#111111"/>
+<text x="733.7" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">SAT</text>
+<rect x="862.9" y="1155.6" width="113.1" height="4.4" rx="0" fill="#111111"/>
+<text x="862.9" y="1200" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">SUN</text>
+</g>
+</svg>

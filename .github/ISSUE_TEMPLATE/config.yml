@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a privacy bug
+    url: https://github.com/OBERON-gg/devwrapped/security/advisories/new
+    about: If devwrapped shows or writes something private, report it here so it stays private until it is fixed.

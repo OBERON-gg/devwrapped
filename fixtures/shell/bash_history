@@ -1,0 +1,14 @@
+ls -la /home/dev/private
+git pull
+#1767225600
+git status
+#1767225660
+TOKEN=hunter2 cargo test
+#1767225720
+for f in *; do
+  echo "$f secret-arg"
+done
+#99999999999999999999
+docker ps
+#1767225780
+sudo systemctl restart nginx

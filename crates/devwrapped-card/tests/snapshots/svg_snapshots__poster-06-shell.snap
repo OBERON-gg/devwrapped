@@ -1,0 +1,43 @@
+---
+source: crates/devwrapped-card/tests/svg_snapshots.rs
+expression: slide.svg
+---
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect x="0.0" y="0.0" width="1080.0" height="1350.0" rx="0" fill="#ffffff"/>
+<line x1="88" y1="1240.0" x2="992" y2="1240.0" stroke="#111111" stroke-width="3"/>
+<text x="88" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="start" letter-spacing="1">cargo install devwrapped</text>
+<text x="992" y="1288" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#111111" text-anchor="end" letter-spacing="1">SHELL</text>
+<rect x="0.0" y="0.0" width="1080.0" height="560.0" rx="0" fill="#e3120b"/>
+<circle cx="984.0" cy="560.0" r="64.0" fill="#111111"/>
+<text x="88" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="start" letter-spacing="1">devwrapped · 2026</text>
+<text x="992" y="96" font-family="JetBrains Mono" font-weight="700" font-size="28" fill="#ffffff" text-anchor="end" letter-spacing="1">06 / 12</text>
+<line x1="88" y1="124" x2="992" y2="124" stroke="#ffffff" stroke-width="3"/>
+<g class="part">
+<text x="88" y="226" font-family="Space Grotesk" font-weight="500" font-size="56" fill="#ffffff" text-anchor="start" letter-spacing="-1.5">You ran</text>
+<text x="76" y="480" font-family="Space Grotesk" font-weight="700" font-size="270" fill="#ffffff" text-anchor="start" letter-spacing="-12.2" class="value">48,213</text>
+</g>
+<g class="part">
+<text x="88" y="690" font-family="Space Grotesk" font-weight="700" font-size="120" fill="#e3120b" text-anchor="start" letter-spacing="-5.4">commands.</text>
+<text x="88" y="780" font-family="Space Grotesk" font-weight="700" font-size="40" fill="#111111" text-anchor="start" letter-spacing="-1">git, 12,904 times. Your ride or die.</text>
+<text x="88" y="830" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">And git status 4,120 times.</text>
+<text x="88" y="870" font-family="JetBrains Mono" font-weight="400" font-size="28" fill="#111111" text-anchor="start" letter-spacing="0">It didn’t change. We checked.</text>
+</g>
+<g class="part">
+<line x1="88" y1="912.0" x2="992" y2="912.0" stroke="#111111" stroke-width="3"/>
+<text x="992" y="950" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#e3120b" text-anchor="end" letter-spacing="0">4,120</text>
+<text x="88" y="950" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">git status</text>
+<line x1="88" y1="968.0" x2="992" y2="968.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1006" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#111111" text-anchor="end" letter-spacing="0">3,307</text>
+<text x="88" y="1006" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">cargo test</text>
+<line x1="88" y1="1024.0" x2="992" y2="1024.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1062" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#111111" text-anchor="end" letter-spacing="0">2,290</text>
+<text x="88" y="1062" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">git commit</text>
+<line x1="88" y1="1080.0" x2="992" y2="1080.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1118" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#111111" text-anchor="end" letter-spacing="0">1,988</text>
+<text x="88" y="1118" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">cargo build</text>
+<line x1="88" y1="1136.0" x2="992" y2="1136.0" stroke="#111111" stroke-width="1"/>
+<text x="992" y="1174" font-family="JetBrains Mono" font-weight="700" font-size="30" fill="#111111" text-anchor="end" letter-spacing="0">1,204</text>
+<text x="88" y="1174" font-family="JetBrains Mono" font-weight="400" font-size="30" fill="#111111" text-anchor="start" letter-spacing="0">git push</text>
+<line x1="88" y1="1192.0" x2="992" y2="1192.0" stroke="#111111" stroke-width="1"/>
+</g>
+</svg>

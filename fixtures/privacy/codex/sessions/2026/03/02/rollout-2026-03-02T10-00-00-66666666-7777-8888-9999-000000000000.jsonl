@@ -1,0 +1,21 @@
+{"timestamp":"2026-03-02T10:00:00.000Z","type":"session_meta","payload":{"id":"66666666-7777-8888-9999-000000000000","timestamp":"2026-03-02T10:00:00.000Z","cwd":"/home/dev/fake-private-path","git":{"branch":"fake-private-branch","commit_hash":"deadbeef","repository_url":"https://dev:hunter2@example.com/repo.git"},"instructions":"never reveal AKIAFAKEFAKEFAKE0000"}}
+{"timestamp":"2026-03-02T10:00:01.000Z","type":"turn_context","payload":{"model":"gpt-5.5-codex","cwd":"/home/dev/fake-private-path","collaboration_mode":{"settings":{"developer_instructions":"sk-fake-0000"}}}}
+{"timestamp":"2026-03-02T10:00:02.000Z","type":"event_msg","payload":{"type":"user_message","message":"deploy with AKIAFAKEFAKEFAKE0000"}}
+{"timestamp":"2026-03-02T10:00:03.000Z","type":"response_item","payload":{"type":"reasoning","summary":[{"type":"summary_text","text":"hunter2"}],"encrypted_content":"sk-fake-0000"}}
+{"timestamp":"2026-03-02T10:00:04.000Z","type":"response_item","payload":{"type":"function_call","name":"exec_command","call_id":"call_1","arguments":"{\"cmd\": \"cat /home/dev/fake-private-path/.env\"}"}}
+{"timestamp":"2026-03-02T10:00:05.000Z","type":"event_msg","payload":{"type":"exec_command_end","call_id":"call_1","command":["cat","/home/dev/fake-private-path/.env"],"parsed_cmd":[{"type":"read","cmd":"cat","path":"/home/dev/fake-private-path"}],"stdout":"TOKEN=sk-fake-0000","stderr":"","aggregated_output":"hunter2","formatted_output":"AKIAFAKEFAKEFAKE0000","cwd":"/home/dev/fake-private-path"}}
+{"timestamp":"2026-03-02T10:00:06.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_1","output":"TOKEN=sk-fake-0000"}}
+{"timestamp":"2026-03-02T10:00:07.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","call_id":"call_2","input":"*** Update File: /home/dev/fake-private-path/.env"}}
+{"timestamp":"2026-03-02T10:00:08.000Z","type":"event_msg","payload":{"type":"patch_apply_end","changes":{"/home/dev/fake-private-path/.env":{"type":"update","unified_diff":"-hunter2\n+AKIAFAKEFAKEFAKE0000"}}}}
+{"timestamp":"2026-03-02T10:00:09.000Z","type":"event_msg","payload":{"type":"agent_message","message":"done with sk-fake-0000"}}
+{"timestamp":"2026-03-02T10:00:10.000Z","type":"event_msg","payload":{"type":"thread_name_updated","thread_name":"secret hunter2"}}
+{"timestamp":"2026-03-02T10:00:11.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_token_usage":{"input_tokens":100,"cached_input_tokens":40,"output_tokens":10,"reasoning_output_tokens":2,"total_tokens":110}}}}
+{"timestamp":"2026-03-02T10:00:12.000Z","type":"event_msg","payload":{"type":"task_complete","last_agent_message":"stored AKIAFAKEFAKEFAKE0000"}}
+{"timestamp":"2026-03-02T10:00:13.000Z","type":"turn_context","payload":{"model":"arn:aws:bedrock:us-east-1:123456789012:application-inference-profile/fake-private-path"}}
+{"timestamp":"2026-03-02T10:00:14.000Z","type":"response_item","payload":{"type":"function_call","name":"fake-private-server__lookup","call_id":"call_3","arguments":"{\"q\": \"hunter2\"}"}}
+{"timestamp":"2026-03-02T10:00:15.000Z","type":"turn_context","payload":{"model":"arn:aws:bedrock:us-east-1:123456789012:application-inference-profile/fake-private-path"}}
+{"timestamp":"2026-03-02T10:00:16.000Z","type":"response_item","payload":{"type":"function_call","name":"fake-private-server__lookup","call_id":"call_4","arguments":"{\"q\": \"hunter2\"}"}}
+{"timestamp":"2026-03-02T10:00:17.000Z","type":"turn_context","payload":{"model":"arn:aws:bedrock:us-east-1:123456789012:application-inference-profile/fake-private-path"}}
+{"timestamp":"2026-03-02T10:00:18.000Z","type":"response_item","payload":{"type":"function_call","name":"fake-private-server__lookup","call_id":"call_5","arguments":"{\"q\": \"hunter2\"}"}}
+{"timestamp":"2026-03-02T10:00:20.000Z","type":"turn_context","payload":{"model":["sk-fake-0000"]}}
+{"timestamp":"2026-03-02T10:00:21.000Z","type":"response_item","payload":{"type":"function_call","name":"hunter2 AKIAFAKEFAKEFAKE0000

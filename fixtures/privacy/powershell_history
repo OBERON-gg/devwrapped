@@ -1,0 +1,15 @@
+$env:AWS_ACCESS_KEY_ID = "AKIAFAKEFAKEFAKE0000"
+mysql -u root -phunter2
+git push https://dev:hunter2@example.com/repo.git
+Invoke-RestMethod -Headers @{ Authorization = "Bearer sk-fake-0000" } `
+  -Uri https://example.com `
+  -Body hunter2
+AKIAFAKEFAKEFAKE0000AKIAFAKEFAKEFAKE0000 --login
+& "C:\Users\dev\fake-private-path\tool.exe" --password hunter2
+Set-Location C:\Users\dev\fake-private-path
+hunter2
+hunter2
+hunter2
+dotnet fake-private-path.dll
+dotnet fake-private-path.dll
+dotnet fake-private-path.dll
